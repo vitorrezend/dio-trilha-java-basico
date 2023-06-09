@@ -1,24 +1,19 @@
 public class Operadores {
-
     public static void main(String[] args) {
-        
-        String concatenacao = "?";
-        System.out.println(concatenacao);
+        int numero = 5;
 
-        concatenacao = 1+1+1+"1";
-        System.out.println(concatenacao);
+        numero = - numero;
 
-        concatenacao = 1 + "1" +1+1;
-        System.out.println(concatenacao);
+        System.out.println(numero);
+        numero = numero * -1;
+        System.out.println(numero);
 
-        concatenacao = 1+"1"+1+"1";
-        System.out.println(concatenacao);
+        int a,b;
 
-        concatenacao = "1"+1+1+1;
-        System.out.println(concatenacao);
+        a = 5;
+        b = 5;
 
-        concatenacao = "1"+(1+1+1);
-        System.out.println(concatenacao);
-
+        String resultado = a == b ? "verdadeiro" : "falso";
+        System.out.println(resultado);
     }
 }
